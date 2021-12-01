@@ -20,6 +20,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 52px;
+    padding: 24px;
+    padding-top: 0;
 }
 
 .header-logo {
@@ -28,6 +30,7 @@ body {
     font-size: 32px;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 ul {
@@ -93,3 +96,56 @@ div.header-content p {
 
 /* white-space, area under the header-content syles */
 
+.content-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.card {
+    border-color: #3882F6;
+    border: 16px;
+
+    flex: 0 1 24%;
+}
+
+
+
+/* Quote panel styles*/
+
+.quote-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 52px;
+    background-color: lightgrey;
+}
+
+.quote {
+
+    font-size: 24px;
+}
+
+.attribution {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* action box styles */
+
+.action-container {
+    padding: 32px;
+}
+
+.action {
+    background-color: #3882F6;
+    
+}
