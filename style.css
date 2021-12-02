@@ -94,7 +94,11 @@ div.header-content p {
     color: white;
 }
 
-/* white-space, area under the header-content syles */
+/* white-space and cards styles */
+
+.content-container {
+    padding: 100px;
+}
 
 .content-header {
     text-align: center;
@@ -105,12 +109,25 @@ div.header-content p {
 .cards {
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding: 16px;
+    gap: 16px;
+}
+
+
+.card-image {
+    border: solid blue;
+    border-width: 1px;
+    border-radius: 15px;
+
+
+    padding: 52px;
 }
 
 .card {
     border-color: #3882F6;
     border: 16px;
+    text-align: center;
+    color: grey;
 
     flex: 0 1 24%;
 }
@@ -146,13 +163,23 @@ div.header-content p {
 }
 
 .action {
+    border-radius: 15px;
     background-color: #3882F6;
     color: white;
 }
 
-.action.header, .action.text {
+.action.header {
+    padding: 0;
+    margin: 0;
+}
+
+.action.text {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: left;
 }
 
 /* footer styles */
