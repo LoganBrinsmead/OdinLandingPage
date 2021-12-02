@@ -147,7 +147,6 @@ div.header-content p {
 }
 
 .quote {
-
     font-size: 24px;
 }
 
@@ -163,23 +162,39 @@ div.header-content p {
 }
 
 .action {
+    display: flex;
+    padding: 32px;
+    margin: 52px;
+
     border-radius: 15px;
     background-color: #3882F6;
     color: white;
 }
 
-.action.header {
-    padding: 0;
-    margin: 0;
+.action-text {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 24px;
 }
 
-.action.text {
+.action-header {
+    font-weight: bold;
+}
+
+.action-button {
     display: flex;
-    flex-direction: row;
-    gap: 0;
-    margin: 0;
-    padding: 0;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: white;
+
+    background-color: #3882F6;
+    border-radius: 15px;
+    border-width: 1px;
+    border: solid white;
+    margin-left: 72px;
 }
 
 /* footer styles */
