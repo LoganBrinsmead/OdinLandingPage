@@ -44,7 +44,7 @@ ul {
     padding-right: 16px;
 
     font-size: 18px;
-    color: #E5E7EB;
+    color: #A3ADB8;
 }
 
 a {
@@ -77,13 +77,14 @@ a {
     margin-left: 24px;
     margin-right: 24px;
 
+
     font-size: 18px;
-    color: #E5E7EB;
+    color: #a3adb9;
 }
 
 .sign-up-button {
     display: flex;
-    background-color: #3882F6;
+    background-color: #497888;
     max-width: 100px;
     justify-content: center;
     color: white;
@@ -95,16 +96,17 @@ a {
 
 .header-content .header-image {
     display: flex;
-    margin: 3vh;
-    background-color: grey;
-    color: white;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    border-radius: 15px;
+    border: solid #497888;
+
+    max-width: 52vh;
 }
 
 div.header-content p {
     color: white;
+    font-style: italic;
 }
 
 /* white-space and cards styles */
@@ -112,9 +114,11 @@ div.header-content p {
 .content-container {
     padding: 150px;
     padding-top: 32px;
+    background-color: whitesmoke;
 
     display: flex;
     flex-direction: column;
+    flex: 0 1 24%;
 }
 
 .content-header {
@@ -127,33 +131,32 @@ div.header-content p {
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 16px 24px;
 
+    gap: 16px;
 }
 
 
 .card-image {
-    border: solid #3882F6;
-    border-width: 1px;
     border-radius: 15px;
+    border: solid black;
     
-    min-width: 14vh;
-    min-height: 18vh;
+    max-width: 32vh;
+    max-height: 44vh;
     margin-bottom: 12px;
 
 
-    padding: 32px 18px;
 }
 
 .card {
-    border-color: #3882F6;
+    border-color: #497888;
     border: 16px;
     text-align: center;
     color: grey;
 
 }
-
 
 
 /* Quote panel styles*/
@@ -166,11 +169,11 @@ div.header-content p {
 
     text-align: left;
     padding: 150px;
-    background-color: #E5E7EB;
+    background-color: #A3ADB8;
 }
 
 .quote {
-    color: #1F2937;
+    color: #492023;
     padding: 0;
     font-size: 36px;
     font-style: italic;
@@ -191,17 +194,20 @@ div.header-content p {
     align-items: center;
     padding: 72px 32px;
 
+    background-color: whitesmoke;
 }
 
 .action {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 4vh 10vh;
     max-width: 80vh;
 
     gap: 62px;
 
     border-radius: 15px;
-    background-color: #3882F6;
+    background-color: #497888;
     color: white;
 }
 
@@ -219,14 +225,14 @@ div.header-content p {
 
 .action-button {
     display: flex;
+    background-color: #1F2937;
+    max-width: 100px;
     justify-content: center;
-    align-items: center;
-    padding: 16px 16px;
     color: white;
-
-    background-color: #3882F6;
+    border: 0;
+    padding: 6px 12px;
     border-radius: 15px;
-    border: solid white;
+    font-weight: bold;
 }
 
 /* footer styles */
