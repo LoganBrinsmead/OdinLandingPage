@@ -26,11 +26,14 @@ body {
 
 .header-logo {
     display: flex;
-    color: white;
-    font-size: 32px;
+    color: #F9FAF8;
+    font-size: 24px;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+
+
+    padding-left: 32px;
 }
 
 ul {
@@ -39,6 +42,9 @@ ul {
     gap: 16px;
     list-style-type: none;
     padding-right: 16px;
+
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 a {
@@ -51,7 +57,8 @@ a {
 .header-content {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .title {
@@ -66,6 +73,9 @@ a {
     gap: 0px;
     margin-right: 24px;
     margin-left: 24px;
+
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .sign-up-button {
@@ -97,30 +107,40 @@ div.header-content p {
 /* white-space and cards styles */
 
 .content-container {
-    padding: 100px;
+    padding: 150px;
+    padding-top: 32px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .content-header {
     text-align: center;
     font-weight: bold;
     font-size: 32px;
+
+    padding-bottom: 16px;
 }
 
 .cards {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-    gap: 16px;
+    padding: 16px 24px;
+
 }
 
 
 .card-image {
-    border: solid blue;
+    border: solid #3882F6;
     border-width: 1px;
     border-radius: 15px;
+    
+    min-width: 14vh;
+    min-height: 18vh;
+    margin-bottom: 12px;
 
 
-    padding: 52px;
+    padding: 32px 18px;
 }
 
 .card {
@@ -129,7 +149,6 @@ div.header-content p {
     text-align: center;
     color: grey;
 
-    flex: 0 1 24%;
 }
 
 
@@ -142,12 +161,18 @@ div.header-content p {
     justify-content: center;
     flex-direction: column;
 
-    padding: 52px;
-    background-color: lightgrey;
+    text-align: left;
+    padding: 150px;
+    background-color: #E5E7EB;
 }
 
 .quote {
-    font-size: 24px;
+    color: #1F2937;
+    padding: 0;
+    font-size: 36px;
+    font-style: italic;
+
+    margin: 0 82px;
 }
 
 .attribution {
@@ -158,13 +183,16 @@ div.header-content p {
 /* action box styles */
 
 .action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 32px;
 }
 
 .action {
     display: flex;
-    padding: 32px;
-    margin: 52px;
+    padding: 24px 48px;
+    max-width: 100vh;
 
     border-radius: 15px;
     background-color: #3882F6;
@@ -176,7 +204,7 @@ div.header-content p {
     flex-direction: column;
 
     align-items: flex-start;
-    padding: 24px;
+    padding-right: 24px;
 }
 
 .action-header {
@@ -187,14 +215,12 @@ div.header-content p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 16px 16px;
     color: white;
 
     background-color: #3882F6;
     border-radius: 15px;
-    border-width: 1px;
     border: solid white;
-    margin-left: 72px;
 }
 
 /* footer styles */
