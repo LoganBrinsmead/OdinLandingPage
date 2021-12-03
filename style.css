@@ -57,8 +57,12 @@ a {
 .header-content {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0px;
+    padding-bottom: 52px;
+    margin: 0;
 }
 
 .title {
@@ -70,9 +74,8 @@ a {
 .header-content-text {
     display: flex;
     flex-direction: column;
-    gap: 0px;
-    margin-right: 24px;
     margin-left: 24px;
+    margin-right: 24px;
 
     font-size: 18px;
     color: #E5E7EB;
@@ -81,23 +84,23 @@ a {
 .sign-up-button {
     display: flex;
     background-color: #3882F6;
-    max-width: 200px;
+    max-width: 100px;
     justify-content: center;
     color: white;
     border: 0;
-    padding: 6px;
+    padding: 6px 12px;
     border-radius: 15px;
+    font-weight: bold;
 }
 
 .header-content .header-image {
     display: flex;
-    margin: 24px;
+    margin: 3vh;
     background-color: grey;
     color: white;
     justify-content: center;
     align-items: center;
     padding: 100px;
-    border-radius: 15px;
 }
 
 div.header-content p {
@@ -186,13 +189,16 @@ div.header-content p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 72px 32px;
+
 }
 
 .action {
     display: flex;
-    padding: 24px 48px;
-    max-width: 100vh;
+    padding: 4vh 10vh;
+    max-width: 80vh;
+
+    gap: 62px;
 
     border-radius: 15px;
     background-color: #3882F6;
